@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>A Pen by ningxiaoxiao</title>
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">只用于rtmp播放,输入流名称或完整地址</div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col">
+                <div class="input-group">
+                    <input id="input" class="form-control" type="text" placeholder="输入流地址" /><span class="input-group-btn">
+          <button class="btn" id="ok" type="button" onclick="play()">监看</button></span>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col" id="player"></div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="ckplayer.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/cookie.js"></script>
+
+
+</body>
+
+</html>
