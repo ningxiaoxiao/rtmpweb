@@ -4,7 +4,7 @@ function play() {
 
     //如果是直接给流名字 就补完
     if (i.indexOf("/live/") < 0) {
-        i = "rtmp://" + window.location.host + "/live" + i;
+        i = "rtmp://" + window.location.hostname + "/live/" + i;
     }
 
     //补关键字
